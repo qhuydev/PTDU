@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Tôm hùm Alaska",
+    "price": "2,000,000",
+    "description": "Tôm Hùm Alaska Hấp Tự Nhiên: ...",
+    "image": "./images/190.webp"
+  },
+  {
+    "id": 2,
+    "name": "Sản phẩm 2",
+    "price": "1,500,000",
+    "description": "Mô tả sản phẩm 2...",
+    "image": "./images/190.webp"
+
+  },
+    {
+    "id": 1,
+    "name": "Tôm hùm Alaska",
+    "price": "2,000,000",
+    "description": "Tôm Hùm Alaska Hấp Tự Nhiên: ...",
+    "image": "./images/190.webp"
+  },
+  {
+    "id": 2,
+    "name": "Sản phẩm 2",
+    "price": "1,500,000",
+    "description": "Mô tả sản phẩm 2...",
+    "image": "./images/190.webp"
+
+  },
+    {
+    "id": 1,
+    "name": "Tôm hùm Alaska",
+    "price": "2,000,000",
+    "description": "Tôm Hùm Alaska Hấp Tự Nhiên: ...",
+    "image": "./images/190.webp"
+  },
+  {
+    "id": 2,
+    "name": "Sản phẩm 2",
+    "price": "1,500,000",
+    "description": "Mô tả sản phẩm 2...",
+    "image": "./images/190.webp"
+
+  },
+    {
+    "id": 1,
+    "name": "Tôm hùm Alaska",
+    "price": "2,000,000",
+    "description": "Tôm Hùm Alaska Hấp Tự Nhiên: ...",
+    "image": "./images/190.webp"
+  },
+  {
+    "id": 2,
+    "name": "Sản phẩm 2",
+    "price": "1,500,000",
+    "description": "Mô tả sản phẩm 2...",
+    "image": "./images/190.webp"
+
+  }
+]
