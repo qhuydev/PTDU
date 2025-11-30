@@ -1,11 +1,22 @@
 {
   "nhanvien": [
     {
-      "id": "853e",
-      "hoten": "huy",
-      "tuoi": 30,
-      "luong": 3333,
-      "diachi": "ha giang"
+      "id": 1,
+      "name": "Huy",
+      "age": 25,
+      "position": "Developer"
+    },
+    {
+      "id": 2,
+      "name": "Lan",
+      "age": 28,
+      "position": "Designer"
+    },
+    {
+      "id": 3,
+      "name": "Nam",
+      "age": 30,
+      "position": "Tester"
     }
   ]
 }
