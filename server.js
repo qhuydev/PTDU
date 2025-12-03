@@ -24,7 +24,6 @@ const SinhVienSchema = new mongoose.Schema(
   {
     hoten: { type: String, required: true },
     tuoi: { type: Number, required: true, min: 18, max: 60 },
-    luong: { type: Number, required: true },
     diachi: { type: String, required: true },
   },
   { timestamps: true }

@@ -25,7 +25,7 @@ export default function SinhVienPage() {
   const [open, setOpen] = useState(false);
   const [edit, setEdit] = useState(false);
   const [search, setSearch] = useState("");
-  const [nv, setNv] = useState({ hoten: "", tuoi: "", luong: "", diachi: "" });
+  const [nv, setNv] = useState({ hoten: "", tuoi: "",diachi: "" });
   const [err, setErr] = useState({});
 
   // State cho dialog xác nhận xoá
@@ -45,7 +45,7 @@ export default function SinhVienPage() {
     const e = {};
     if (!nv.hoten) e.hoten = "Không được trống";
     if (!nv.tuoi || nv.tuoi < 18 || nv.tuoi > 60) e.tuoi = "18 - 60";
-    if (!nv.luong || nv.luong <= 0) e.luong = "Lương phải > 0";
+   
     setErr(e);
     return Object.keys(e).length === 0;
   };
@@ -105,7 +105,7 @@ export default function SinhVienPage() {
           startIcon={<AddIcon />}
           onClick={() => {
             setEdit(false);
-            setNv({ hoten: "", tuoi: "", luong: "", diachi: "" });
+            setNv({ hoten: "", tuoi: "", diachi: "" });
             setOpen(true);
           }}
         >

@@ -11,7 +11,6 @@ export default function SinhVienForm({ open, edit, nv, err, onChange, onSubmit, 
 
         <TextField label="Tuổi" type="number" value={nv.tuoi} onChange={(e) => onChange("tuoi", e.target.value)} error={!!err.tuoi} helperText={err.tuoi} />
 
-        <TextField label="Lương" type="number" value={nv.luong} onChange={(e) => onChange("luong", e.target.value)} error={!!err.luong} helperText={err.luong} />
 
         <TextField label="Địa chỉ" value={nv.diachi} onChange={(e) => onChange("diachi", e.target.value)} />
       </DialogContent>

@@ -12,7 +12,6 @@ export default function SinhVienList({ data, onEdit, onDelete }) {
             <TableCell><b>ID</b></TableCell>
             <TableCell><b>Họ Tên</b></TableCell>
             <TableCell><b>Tuổi</b></TableCell>
-            <TableCell><b>Lương</b></TableCell>
             <TableCell><b>Địa Chỉ</b></TableCell>
             <TableCell><b>Hành động</b></TableCell>
           </TableRow>
@@ -29,7 +28,6 @@ export default function SinhVienList({ data, onEdit, onDelete }) {
                 <TableCell>{sv._id}</TableCell>
                 <TableCell>{sv.hoten}</TableCell>
                 <TableCell>{sv.tuoi}</TableCell>
-                <TableCell>{sv.luong}</TableCell>
                 <TableCell>{sv.diachi}</TableCell>
                 <TableCell>
                   <Button size="small" color="success" startIcon={<EditIcon />} onClick={() => onEdit(sv)}>Sửa</Button>
